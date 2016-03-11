@@ -1,10 +1,15 @@
-public static class StringExtensions
+using System;
+
+namespace SchwabenCode.StringExtensions
 {
-      /// <summary>
-      /// Cuts a string with the given max length
-      /// </summary>
-      public static string WithMaxLength(this string value, int maxLength)
+      public static class StringExtensions
       {
-          return value?.Substring(0, Math.Min(value.Length, maxLength));
+            /// <summary>
+            /// Cuts a string with the given max length
+            /// </summary>
+            public static string WithMaxLength(this string value, int maxLength)
+            {
+                return value?.Substring(0, Math.Min(value.Length, maxLength));
+            }
       }
 }
