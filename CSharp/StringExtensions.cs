@@ -1,6 +1,6 @@
 using System;
 
-namespace SchwabenCode.StringExtensions
+namespace SchwabenCode.Core
 {
       public static class StringExtensions
       {
