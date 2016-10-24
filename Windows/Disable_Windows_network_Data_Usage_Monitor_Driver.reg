@@ -1,0 +1,7 @@
+;Disables Windows Network Monitor which causes a deadlock and memory leak in Killer Network Drivers in Windows 10
+
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\Ndu]
+"Start"=dword:00000004
+
