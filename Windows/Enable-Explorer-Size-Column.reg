@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; http://winaero.com/blog/add-size-all-columns-to-fit-context-menu-in-windows-10/
+
+[HKEY_CLASSES_ROOT\Folder\shell\Windows.SizeAllColumns]
+"CommandStateSync"=""
+"Description"="@shell32.dll,-37467"
+"ExplorerCommandHandler"="{f4e8bc67-9616-4a28-a332-cf27a5ca6736}"
+"Icon"="imageres.dll,-5366"
+"MUIVerb"="@shell32.dll,-37466"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Windows.SizeAllColumns]
+"CommandStateSync"=""
+"Description"="@shell32.dll,-37467"
+"ExplorerCommandHandler"="{f4e8bc67-9616-4a28-a332-cf27a5ca6736}"
+"Icon"="imageres.dll,-5366"
+"MUIVerb"="@shell32.dll,-37466"
+
+
+[HKEY_CLASSES_ROOT\*\shell\Windows.SizeAllColumns]
+"CommandStateSync"=""
+"Description"="@shell32.dll,-37467"
+"ExplorerCommandHandler"="{f4e8bc67-9616-4a28-a332-cf27a5ca6736}"
+"Icon"="imageres.dll,-5366"
+"MUIVerb"="@shell32.dll,-37466"
